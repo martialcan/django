@@ -1,0 +1,562 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content %}
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>شام با ما  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="دوستان:خانواده" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2>تجربه شگفت انگیز
+
+                            </h2>
+                            <p></p>
+                            <div class="book-btn">
+                                <a href="#reservation" class="table-btn hvr-underline-from-center">رزرو غذا</a>
+                            </div>
+                            <a href="#about">
+                                <div class="mouse"></div>
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
+
+    <div id="about" class="about-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title">درباره ما </h2>
+                        <h3>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h3>
+                        <p> در رستوران ما، ما از بهترین مواد اولیه و تازه استفاده می‌کنیم تا بتوانیم به شما غذاهایی با کیفیت عالی ارائه کنیم. </p>
+
+                        <p> ما به دنبال خلق تجربه‌ای لذت‌بخش برای مشتریانمان هستیم، از طریق بهترین غذاها و خدماتی دوستانه و حرفه‌ای. </p>
+
+                        <p> در رستوران ما، ما به ارائه بهترین تجربه‌ی غذایی برای شما اهمیت می‌دهیم، با تمرکز بر کیفیت خدمات و طعم‌های متنوع. </p>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <div class="about-images">
+                            <img class="about-main" src="{% static 'images/about-main.jpg' %}" alt="About Main Image">
+                            <img class="about-inset" src="{% static 'images/about-inset.jpg' %}" alt="About Inset Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+    <div class="special-menu pad-top-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> غذاهای مخصوص ما</h2>
+                        <h5 class="title-caption text-center"> ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه. </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            استیک سالمون
+                                            <div class="line"></div>
+                                            <div class="dit-line">طعمی خاص و دلپذیر.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="{% static 'images/special-menu-1.jpg' %}" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                           پیتزای ایتالیایی
+                                            <div class="line"></div>
+                                            <div class="dit-line">طعمی خاص</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="{% static 'images/special-menu-2.jpg' %}" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            ویجی رول
+                                            <div class="line"></div>
+                                            <div class="dit-line">خاص و لذیذ</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="{% static 'images/special-menu-3.jpg' %}" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            استیک سالمون
+                                            <div class="line"></div>
+                                            <div class="dit-line">خوش طعم</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="{% static 'images/special-menu-1.jpg' %}" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                           ویجی رول
+                                            <div class="line"></div>
+                                            <div class="dit-line">خاص و لذیذ</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="{% static 'images/special-menu-2.jpg' %}" alt="sp-menu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end special-menu -->
+
+
+   {% include 'partials/_menu.html' %}
+
+   <!-- <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						Our Team 	
+					</h2>
+                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                    </div>
+                    <div class="team-box">
+
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="{% static 'images/staff-01.jpg' %}" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>John Doggett</h3>
+                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                           <!-- <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="{% static 'images/staff-02.jpg' %}" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Jeffrey Spender</h3>
+                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                          <!--  <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="{% static 'images/staff-03.jpg' %}" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>Monica Reyes</h3>
+                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                        <ul class="team-social">
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- end team-box -->
+
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div> 
+    <!-- end team-main -->
+
+    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						گالری غذاها
+					</h2>
+                        <p class="title-caption text-center">ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</p>
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="{% static 'images/gallery_01.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_01.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="{% static 'images/gallery_02.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_02.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="{% static 'images/gallery_03.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_03.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="{% static 'images/gallery_04.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_04.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="{% static 'images/gallery_05.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_05.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="{% static 'images/gallery_06.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_06.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="{% static 'images/gallery_07.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_07.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#11">
+                                    <img src="{% static 'images/gallery_08.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="11" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_08.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#12">
+                                    <img src="{% static 'images/gallery_09.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="12" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_09.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#13">
+                                    <img src="{% static 'images/gallery_10.jpg' %}" alt="" />
+                                </a>
+                                <div class="modal fade" id="13" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="{% static 'images/gallery_10.jpg' %}" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>ما بهترین‌ها را برای شما فراهم کرده‌ایم، از جمله غذاهایی با طعم‌های متنوع و خدماتی حرفه‌ای و دوستانه.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end gal-container -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end gallery-main -->
+
+   <!-- <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+					Our Blog 	
+				</h2>
+                    <div class="blog-box clearfix">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="{% static 'images/featured-image-01.jpg' %}" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>25 NOVEMBER, 2014</span></p>
+                                        <h2>LATEST RECIPES JUST IN!</h2>
+                                        <h5>BY John Doggett</h5>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                        </div>
+                      <!--  <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="{% static 'images/featured-image-02.jpg' %}" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>2 NOVEMBER, 2014</span></p>
+                                        <h2>NEW RECRUITS HAVE ARRIVED!</h2>
+                                        <h5>BY Jeffrey Spender</h5>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                        </div>
+                      <!--  <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="{% static 'images/featured-image-03.jpg' %}" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>4 NOVEMBER, 2014</span></p>
+                                        <h2>BAKING TIPS FROM THE PROS</h2>
+                                        <h5>BY Monica Reyes</h5>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                        </div>
+                    <!---    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="{% static 'images/featured-image-04.jpg' %}" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>12 NOVEMBER, 2014</span></p>
+                                        <h2>ALL YOUR EGGS BELONG TO US</h2>
+                                        <h5>BY John Doggett</h5>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- end col -->
+                        </div>
+                    </div>
+                    <!-- end blog-box -->
+
+                 <!--   <div class="blog-btn-v">
+                        <a class="hvr-underline-from-center" href="#">View the Blog</a>
+                    </div>
+
+                </div> -->
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end blog-main -->
+
+  
+
+   {% include 'partials/_reservation.html' %}
+
+   
+    {% endblock content %}
+    
